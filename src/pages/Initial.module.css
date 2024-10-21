@@ -1,0 +1,5 @@
+.grid {
+    background: linear-gradient(#433878, #5a4f97);
+    display: grid;
+    height: 100vh;
+}
