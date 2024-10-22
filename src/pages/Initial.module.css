@@ -1,14 +1,16 @@
 .grid {
-    background-color: #433878;
+    background: linear-gradient(#5e50a1 , var(--purple)) ;
     display: grid;
-    height: 1000px;
+    height: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 75px 620px;
+    grid-template-rows: 75px calc(100vh - 75px) 650px;
     grid-template-areas: 
         'header'
+        'first'
         'about'
 }
 
+/* Header area start */
 header {
     grid-area: header;
     display: grid;
@@ -41,24 +43,29 @@ header {
 
 .button {
     background: none;
-    border: 2px solid #E4B1F0;
+    border: 2px solid var(--pink);
     border-radius: 5px;
     width: 125px;
     height: 50px;
     font-weight: bold;
     font-size: 16px;
-    color: #E4B1F0;
+    color: var(--pink);
 }
 
 .buttonResume {
-    background-color: #E4B1F0;
-    border: 2px solid #E4B1F0;
+    background-color: var(--pink);
+    border: 2px solid var(--pink);
     border-radius: 5px;
     width: 125px;
     height: 50px;
     font-weight: bold;
     font-size: 16px;
-    color: #433878;
+    color: var(--purple);
+}
+/* Header area end */
+
+.first {
+    grid-area: first;
 }
 
 .about {

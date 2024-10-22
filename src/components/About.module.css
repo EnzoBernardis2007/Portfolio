@@ -1,9 +1,5 @@
-* {
-    color: #E4B1F0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 section {
+    background-color: var(--purple);
     margin: 0 auto 0 auto;
     width: 900px;
     display: flex;

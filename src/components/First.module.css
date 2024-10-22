@@ -1,0 +1,47 @@
+main {
+    margin: auto auto auto auto;
+}
+
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.container {
+    margin: 10px 0 20px 0;
+}
+
+.title {
+    color: var(--text-highligth);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 60px;
+    text-align: left;
+}
+
+.text {
+    text-align: justify;
+    width: 500px;
+}
+
+.button {
+    background-color: var(--pink);
+    border: 2px solid var(--pink);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--purple);
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: var(--pink-highligth);
+    border: 2px solid var(--pink-highligth);
+    cursor: pointer;
+}

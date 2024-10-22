@@ -1,6 +1,7 @@
 import style from "./Initial.module.css";
 import { SiCsharp } from "react-icons/si";
 
+import { First } from "../components/First";
 import { About } from "../components/About";
 
 export function Initial() {
@@ -25,6 +26,7 @@ export function Initial() {
         </nav>
       </header>
 
+      <First className={style.first}/>
       <About className={style.about} />
     </div>
   );
