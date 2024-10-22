@@ -2,31 +2,34 @@
     color: #E4B1F0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 section {
     margin: 0 auto 0 auto;
-    width: 800px;
+    width: 900px;
     display: flex;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0px black;
 }
+
 h1 {
     font-size: 50px;
 }
+
 p {
     text-align: justify;
 }
-ul {
+
+.toolCardContainer {
     display: flex;
     list-style-type: none; 
-    padding-left: 0; 
 }
-li {
-    padding-right: 50px;
-}
-.circle {
-    width: 10px;
-    height: 10px;
-}
+
 .img {
     width: 350px;
     height: 350px;
-    margin: 0 0 0 25px;
+    margin: auto 0 auto 25px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0px black;
 }

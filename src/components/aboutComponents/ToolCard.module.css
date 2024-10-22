@@ -1,0 +1,27 @@
+.container {
+    background-color: #E4B1F0;
+    border-radius: 10px;
+    display: grid;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    width: 235px;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 40px;
+    grid-template-areas: 
+        'img p'
+
+}
+
+.img {
+    grid-area: img;
+    height: 40px;
+    text-align: center;
+}
+
+.p {
+    grid-area: p;
+    color: #433878;
+    font-weight: bold;
+    font-size: 24px;
+    margin: auto auto auto 10px;
+}

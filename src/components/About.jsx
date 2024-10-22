@@ -1,5 +1,7 @@
 import style from './About.module.css'
-import { FaRegCircle } from "react-icons/fa6";
+import { ToolCard } from './aboutComponents/ToolCard'
+import CSharpIcon from '../imgs/cSharp.png'
+import visualStudioIcon from '../imgs/visualStudio.jpg'
 
 export function About() {
     return (
@@ -24,17 +26,28 @@ export function About() {
                     Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:
                 </p>
                 <br /> 
-                <ul>
+                <div className={style.toolCardContainer}>
                     <div>
-                        <li><FaRegCircle className={style.circle}/> C#</li>
-                        <li><FaRegCircle className={style.circle}/> WPF</li>
+                        <ToolCard 
+                            img={CSharpIcon}
+                            name={"C#"}
+                        />
+                        <ToolCard 
+                            name={"WPF"}
+                        />
                     </div>
                     
                     <div>
-                        <li><FaRegCircle className={style.circle}/> Java</li>
-                        <li><FaRegCircle className={style.circle}/> React</li>
+                        <ToolCard 
+                            img={visualStudioIcon}
+                            name={"Visual Studio"}
+                        />
+                        <ToolCard 
+                            img={CSharpIcon}
+                            name={"C#"}
+                        />
                     </div>
-                </ul>
+                </div>
             </div>
             <img className={style.img} src="https://picsum.photos/1"/>
         </section>

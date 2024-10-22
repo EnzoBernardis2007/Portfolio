@@ -1,10 +1,10 @@
-import { RoutesManager } from "./routes/RoutesManager";
-import "./App.css";
+import { Initial } from './pages/Initial'
+import "./App.css"
 
 function App() {
   return (
     <>
-      <RoutesManager />
+      <Initial />
     </>
   );
 }

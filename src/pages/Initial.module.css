@@ -1,9 +1,9 @@
 .grid {
     background-color: #433878;
     display: grid;
-    height: 100vh;
+    height: 1000px;
     grid-template-columns: 100%;
-    grid-template-rows: 75px 500px;
+    grid-template-rows: 75px 620px;
     grid-template-areas: 
         'header'
         'about'
@@ -36,6 +36,7 @@ header {
     display: flex;
     grid-area: buttonContainer;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 .button {
