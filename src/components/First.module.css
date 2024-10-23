@@ -1,8 +1,9 @@
 main {
-    margin: auto auto auto auto;
+    margin: 100px auto auto auto;
 }
 
 .intro {
+    color: var(--lilac);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -12,36 +13,38 @@ main {
 }
 
 .title {
-    color: var(--text-highligth);
+    color: var(--ligth-lilac);
     font-size: 60px;
     font-weight: bold;
 }
 
 .subtitle {
+    color: var(--lilac);
     font-size: 60px;
     text-align: left;
 }
 
 .text {
+    color: var(--lilac);
     text-align: justify;
     width: 500px;
 }
 
 .button {
-    background-color: var(--pink);
-    border: 2px solid var(--pink);
+    background-color: var(--ligth-lilac);
+    border: 2px solid var(--ligth-lilac);
     border-radius: 5px;
     width: 200px;
     height: 50px;
     font-weight: bold;
     font-size: 16px;
     color: var(--purple);
-    margin-top: 10px;
+    margin-top: 20px;
     transition: 0.5s;
 }
 
 .button:hover {
-    background-color: var(--pink-highligth);
-    border: 2px solid var(--pink-highligth);
+    background-color: var(--ligth-lilac);
+    border: 2px solid var(--ligth-lilac);
     cursor: pointer;
 }

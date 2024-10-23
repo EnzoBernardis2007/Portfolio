@@ -1,12 +1,12 @@
 import style from './First.module.css'
 
-export function First() {
+export function First({ id }) {
     const openArasoiGithub = () => {
         window.open('https://github.com/EnzoBernardis2007/Arasoi-MINITCC', '_blank', 'noopener,noreferrer');
     }
     
     return (
-        <main>
+        <main id={id}>
             <p className={style.intro}>Olá, eu me chamo</p>
             <div className={style.container}>
                 <p className={style.title}>Enzo Bernardis.</p>

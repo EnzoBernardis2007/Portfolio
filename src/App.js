@@ -1,5 +1,5 @@
-import { Initial } from './pages/Initial'
-import "./App.css"
+import { Initial } from "./pages/Initial";
+import "./App.css";
 
 function App() {
   return (
